@@ -1,6 +1,6 @@
 # 🚀 Personal Profile Page
 
-This is a clean and simple profile page template featuring a photo, name, and links to various social media accounts (Facebook, Instagram, Twitter, Google Play).
+This is a clean and simple profile page template featuring a photo, name, and links to various social media accounts (Facebook, Instagram, Twitter, Google Play, GitHub).
 
 ## 🛠 Features:
 - Minimal and responsive design
