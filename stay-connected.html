@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Information</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        .custom-contact-container {
+            padding: 20px; /* Inner spacing */
+            margin: 20px; /* Outer spacing */
+            border-radius: 8px; /* Slightly rounded corners */
+            color: #333; /* Text color */
+            line-height: 1.5; /* Line height for better readability */
+            font-family: 'Cairo', sans-serif; /* Use Cairo font */
+            box-shadow: none; /* No shadow for a flat design */
+            border: 2px solid #e0e0e0; /* Subtle border for definition */
+            transition: border-color 0.3s ease; /* Transition for border color */
+        }
+        .custom-contact-container:hover {
+            border-color: #007FFF; /* Change border color on hover */
+        }
+        .custom-contact-intro {
+            font-size: 1.2em; /* Font size for intro */
+        }
+        .custom-name {
+            font-weight: bold; /* Bold font for name */
+            color: #007FFF; /* Flat blue for emphasis */
+        }
+        .custom-contact-email,
+        .custom-business-contact,
+        .custom-social-media {
+            margin: 10px 0; /* Margin for paragraphs */
+        }
+        .custom-email-link {
+            color: #007FFF; /* Link color */
+            text-decoration: none; /* Remove underline from links */
+            transition: color 0.3s ease; /* Transition for color change */
+        }
+        .custom-email-link:hover {
+            color: #0056b3; /* Darker blue on hover */
+            text-decoration: underline; /* Underline links on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="custom-contact-container">
+        <p class="custom-contact-intro">You can contact me, <strong class="custom-name">Walid Fekry</strong>, via email:</p>
+        <p class="custom-contact-email">
+            <a href="mailto:walid_fekry@hotmail.com" class="custom-email-link">walid_fekry@hotmail.com</a> for general inquiries and communication.
+        </p>
+        <p class="custom-social-media">Or connect with me on social media platforms.</p>
+    </div>
+</body>
+</html>
