@@ -1,7 +1,9 @@
 @import "https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap";
 
 body {
-    font-family: 'Cairo', Arial, sans-serif
+    font-family: 'Cairo', Arial, sans-serif;
+    direction: rtl;
+    text-align: right;
 }
 
 .lang-switch {
@@ -32,7 +34,7 @@ body {
     font-family: 'Cairo', sans-serif;
     letter-spacing: 1px;
     opacity: 0;
-    animation: fadeInUp .8s cubic-bezier(0.25, 1.0, 0.5, 1.0) forwards
+    animation: fadeInUp .8s cubic-bezier(0.25, 1.0, 0.5, 1.0) forwards;
 }
 
 .highlight {
@@ -40,22 +42,22 @@ body {
     font-weight: 700;
     background-color: transparent;
     padding: .1em;
-    transition: color .3s ease
+    transition: color .3s ease;
 }
 
 .highlight:hover {
-    color: #0056b3
+    color: #0056b3;
 }
 
 @keyframes fadeInUp {
     0% {
         opacity: 0;
-        transform: translateY(30px)
+        transform: translateY(30px);
     }
 
     100% {
         opacity: 1;
-        transform: translateY(0)
+        transform: translateY(0);
     }
 }
 
@@ -68,16 +70,16 @@ body {
     background: linear-gradient(135deg, #f4f4f4, #fff);
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
     font-family: 'Cairo', Arial, sans-serif;
-    transition: transform .3s ease, box-shadow .3s ease
+    transition: transform .3s ease, box-shadow .3s ease;
 }
 
 .behance-social-container:hover {
     transform: translateY(-5px);
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2)
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
 }
 
 .behance-profile {
-    margin-bottom: 20px
+    margin-bottom: 20px;
 }
 
 .behance-profile-image {
@@ -87,11 +89,11 @@ body {
     object-fit: cover;
     margin-bottom: 15px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    transition: transform .3s ease
+    transition: transform .3s ease;
 }
 
 .behance-profile-image:hover {
-    transform: scale(1.1)
+    transform: scale(1.1);
 }
 
 .behance-name-container {
@@ -101,29 +103,22 @@ body {
     font-size: 22px;
     font-weight: 700;
     color: #333;
-    margin-bottom: 10px
+    margin-bottom: 10px;
 }
 
 .behance-name {
-    margin-right: 8px
+    margin-left: 8px;
 }
 
 .behance-verification-icon {
-    width: 18px;
-    height: 18px
+    width: 20px;
+    height: 20px;
 }
 
 .behance-bio {
     font-size: 16px;
     color: #555;
-    margin-bottom: 20px
-}
-
-.behance-follow-title {
-    font-size: 18px;
-    color: #333;
     margin-bottom: 20px;
-    letter-spacing: 1px
 }
 
 .behance-social-buttons {
