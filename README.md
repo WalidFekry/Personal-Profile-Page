@@ -9,12 +9,12 @@ This is a clean and simple profile page template featuring a photo, name, and li
 - Easy to customize for personal use
 
   
-## 📱 Screenshot Of English Version
+## 📱 Screenshot of English version
 <td style="text-align: center;">
     <img src="images/screenshots/screenshot-en.png" style="width: 100%; max-width: 500px;" alt="Screenshot Of English Version">
 </td>
 
-## 📱 Screenshot Of Arabic Version
+## 📱 Screenshot of Arabic version
 <td style="text-align: center;">
     <img src="images/screenshots/screenshot-ar.png" style="width: 100%; max-width: 500px;" alt="Screenshot Of Arabic Version">
 </td>
